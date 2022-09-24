@@ -24,8 +24,9 @@
     },
     {
       "description": "Group Kubernetes packages",
-      "matchPackagePatterns": ["^kubernetes/", "^k8s\\.gcr\\.io/kube-"],
-      "groupName": "Kubernetes packages"
+      "matchPackagePatterns": ["^kubernetes/", "^k8s\\.gcr\\.io/kube-", "^registry\\.k8s\\.io/kube-"],
+      "groupName": "Kubernetes packages",
+      "separateMinorPatch": true
     },
     {
       "description": "Updates daily with mostly noise",
